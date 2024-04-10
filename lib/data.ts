@@ -44,20 +44,12 @@ export const experiencesData = [
     date: "2023",
   },
   {
-    title: "-------------",
-    location: "------------",
+    title: "Linux System Admin    ",
+    location: "Research Institute of Information Technology and Communications@ISFAHAN    ",
     description:
-      "-------------------",
+      "Set up security using SUDO, TCP WRAPPERS / Experience in writing shell/bash scripts      ",
     icon: React.createElement(CgWorkAlt),
-    date: "2019 - 2021",
-  },
-  {
-    title: "-------------",
-    location: "----------------",
-    description:
-      "------------------",
-    icon: React.createElement(FaReact),
-    date: "2021 - present",
+    date: "2020 - 2021",
   },
 ] as const;
 
@@ -81,7 +73,7 @@ export const projectsData = [
     description:
       "I engineered a comprehensive home security system, including the ESP8266 and SIM900 modules, in conjunction with advanced motion detection sensors with the help of the Internet of Things(IoT) and the MQTT Protocol.",
     tags: ["MQTT", "ESP8266", "IOT", "SIM900"],
-    //imageUrl: wordanalyticsImg,
+    imageUrl: wordanalyticsImg,
   },
 ] as const;
 
